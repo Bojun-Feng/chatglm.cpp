@@ -21,7 +21,7 @@ C++ implementation of [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) and [Cha
 
 Clone the ChatGLM.cpp repository into your local machine:
 ```sh
-git clone --recursive https://github.com/li-plus/chatglm.cpp.git && cd chatglm.cpp
+git clone --recursive https://github.com/Bojun-Feng/chatglm.cpp.git && cd chatglm.cpp
 ```
 
 If you forgot the `--recursive` flag when cloning the repository, run the following command in the `chatglm.cpp` folder:
@@ -105,7 +105,7 @@ Note that the current GGML CUDA implementation is really slow. The community is 
 To install the Python binding from source, run:
 ```sh
 # install from the latest source hosted on GitHub
-pip install git+https://github.com/li-plus/chatglm.cpp.git@main
+pip install git+https://github.com/Bojun-Feng/chatglm.cpp.git@main
 # or install from your local source
 pip install .
 ```
